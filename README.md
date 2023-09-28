@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Totality Corp Frontend Challenge
 
-## Getting Started
+## Tech Stack
 
-First, run the development server:
+- React - Used as the frontend framework for building components and managing state
+- React Router - For client-side routing between pages  
+- Styled Components - For styling components with CSS
+- React Hook Form - For form validation on checkout page
+- React Query - For caching API responses and data fetching
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Product Listing
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Displays a list of sample products fetched from a mock API  
+- Users can filter products by category or search by name
+- Clicking "Add to Cart" adds the product to the cart
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Shopping Cart
 
-## Learn More
+- Displays items added to the cart along with quantities and totals
+- Users can update quantities or remove items
+- Cart automatically updates on any changes
 
-To learn more about Next.js, take a look at the following resources:
+### Checkout
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Collects and validates user information like name, address etc
+- Calculates and displays order total
+- Future enhancement: integrate payment gateway
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Responsiveness
 
-## Deploy on Vercel
+- Uses CSS media queries to make the layout responsive on mobile and desktop
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Live Demo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The app is deployed at [https://totality-frontend-challenge.netlify.app/](https://totality-frontend-challenge.netlify.app/)
+
+## Areas for Improvement
+
+- Add authentication for user accounts
+- Improve loading states and error handling  
+- Add order confirmation page after successful checkout
+- Integrate with a real API instead of mock data
