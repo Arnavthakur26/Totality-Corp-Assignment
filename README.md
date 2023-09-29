@@ -4,7 +4,7 @@
 
 - NextJS - Used as the frontend framework for building components and managing state
 - Next-UI- For components.
--TailwindCSS- Used as the utility framework.
+- TailwindCSS- Used as the utility framework.
 
 ## Features
 
