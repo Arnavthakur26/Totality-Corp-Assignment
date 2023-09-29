@@ -2,11 +2,9 @@
 
 ## Tech Stack
 
-- React - Used as the frontend framework for building components and managing state
-- React Router - For client-side routing between pages  
-- Styled Components - For styling components with CSS
-- React Hook Form - For form validation on checkout page
-- React Query - For caching API responses and data fetching
+- NextJS - Used as the frontend framework for building components and managing state
+- Next-UI- For components.
+-TailwindCSS- Used as the utility framework.
 
 ## Features
 
